@@ -1,0 +1,43 @@
+body{
+    background-color: grey;
+}
+#constainer{
+    width: 1000px;
+    height: auto;
+}
+
+.ul_bar{
+    width:1000px;
+    height: 40px;
+    border-bottom: 1px solid black;
+    
+
+    li{
+        list-style-type: none;
+    }
+
+}
+
+#bar{
+    display:grid;
+    grid-template-columns: auto auto;
+    width:1000px;
+    
+}
+
+#logo{
+    border-bottom: 1px solid black;
+    width:1000px;
+    height: 120px;
+    p{
+        margin-left:280px;
+    }
+
+    .ul_bar2{
+        list-style-type: none;
+        display:inline-flex;
+        gap:35px;
+        margin-left:170px;
+    }
+}
+

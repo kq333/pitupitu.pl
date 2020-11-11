@@ -1,0 +1,311 @@
+body{
+    background-color: grey;
+    
+   
+}
+#constainer{
+    height: auto;
+}
+
+#content{
+    margin:auto;
+    background-color: rgb(80, 78, 78);
+    width:1000px;
+   
+}
+
+
+#bar{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: "ul_bar loging";
+    border-bottom: 1px solid black;
+    
+.menu{
+    position:relative;
+    margin:20px 0 0 40px;
+    &:hover + .ul_bar{
+        margin-top:40px;
+        display:block;
+      }
+    
+    
+   
+    
+    &::before{
+      position:absolute;
+      content: "";
+      display:block; 
+      width: 10px;
+      height: 5px;
+      border-top: solid 1px black;
+      border-bottom: solid 1px black;
+      margin-left:-12px; 
+      margin-top:5px;
+      cursor: pointer;
+     
+      
+     
+     
+    
+    }
+    &::after{
+        position:absolute;
+        content:"";
+        display:block;
+        position:absolute;
+        border-top: solid 1px black;
+        width: 10px;
+        height:5px;
+        margin:-10px 0 0 -12px;
+        cursor: pointer;
+        
+       
+        
+      } 
+} 
+
+
+.ul_bar{ 
+    height: auto; 
+    grid-area: ul_bar;
+    position: absolute;
+    margin-top:45px;
+    margin-right:20px;
+    line-height: 25px;
+    display: none;
+    
+    
+
+    
+li{
+    list-style-type: none;
+    background-color: antiquewhite;
+    padding: 5px;
+    font-size: 12px;;
+}
+        
+    }  
+.loging{
+    height: 56px;
+    grid-area: loging;
+
+    margin: 20px 0 0 700px;
+}      
+    
+}
+
+
+
+
+#logo{
+    border-bottom: 1px solid black;
+    width:1000px;
+    height: 120px;
+    p{
+        margin-left:480px;
+    }
+
+    .ul_bar2{
+        list-style-type: none;
+        display:inline-flex;
+        gap:55px;
+        margin-left:170px;
+    }
+}
+
+.block_1{
+    width:1000px;
+    height: auto;
+    display:grid;
+    grid-template-columns: 500px auto auto;
+    .art1{
+    grid-row-start: 1;
+    grid-row-end: 9;
+    height: 800px;;
+    }
+    gap: 20px;
+}
+
+.quotes{
+    width: 940px;
+    height: 60px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding:30px;
+    
+    p1{
+        margin-left: 400px;
+        margin-top:130px; 
+    }
+    p{
+        margin-left: 440px;
+    }
+    
+}
+
+.section{
+    text-align: center;
+    height: auto;
+.family{
+    width:1000px;
+    height: 250px;
+    border-bottom: 1px solid black;
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: "art10 art10"
+                          "art11 art12"  ;
+    
+.art10{
+grid-area: art10;        
+       
+           
+}
+.art11{
+grid-area: art11;   
+}       
+
+.art12{
+grid-area: art12;     
+}       
+     
+  
+}
+
+.column{
+    width:1000px;
+    height: 250px;
+    border-bottom: 1px solid black;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: "art13 art13 art13 art13"
+                         " art14 art15 art16 art17"   ;
+    
+    .art13{
+        
+        grid-area: art13;
+        
+           
+            }
+    .art14{
+        grid-area: art14;
+        
+     }       
+
+    .art15{
+        grid-area: art15;
+     }       
+     
+     .art16{
+        grid-area: art16;
+     }  
+     
+     .art17{
+        grid-area: art17;
+     }       
+        
+    h1{
+        margin-left:500px;
+            
+        }
+         
+}
+
+
+.recommended{
+    width:1000px;
+    height: auto;
+    border-bottom: 1px solid black;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: " art18   art19"
+                         " art20   art19"
+                         " art21  art22"
+                         " art23  art22"
+                         " art24  art25"
+                         " art26  art25"
+                         ;
+    
+                    
+                        
+                         
+.art18{
+grid-area:art18;
+                         
+                               
+}
+               
+.art19{
+grid-area: art19;
+    
+ }       
+
+.art20{
+grid-area: art20;   
+    
+    
+ }       
+ 
+.art21{
+grid-area: art21;    
+ }  
+ 
+.art22{
+grid-area: art22;    
+ } 
+ 
+.art23{
+grid-area: art23;  
+ }  
+
+.art24{
+grid-area: art24;   
+    
+ } 
+
+.art25{
+grid-area: art25;    
+ } 
+
+.art26{
+grid-area: art26;    
+ } 
+};
+
+.letters{
+    width:1000px;
+    height: 200px;
+  
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "art27 art28 art29 art30";
+
+
+.art27{
+    grid-area: art27;    
+} 
+
+.art28{
+    grid-area: art28;    
+}
+
+
+.art29{
+    grid-area: art29;    
+}
+
+.art30{
+    grid-area: art30;    
+}
+
+}
+
+.footer{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    background-color: red;
+    height: 200px;
+ }  
+} 
+   
+   

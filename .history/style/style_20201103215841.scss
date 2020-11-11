@@ -1,0 +1,205 @@
+body{
+    background-color: grey;
+    
+   
+}
+#constainer{
+    height: auto;
+}
+
+#content{
+    margin:auto;
+    background-color: red;
+    width:1000px;
+   
+}
+
+
+.ul_bar{
+    width:960px;
+    height: 40px;
+    border-bottom: 1px solid black;
+    
+
+    li{
+        list-style-type: none;
+    }
+    
+
+}
+
+#bar{
+    display:grid;
+    grid-template-columns: auto auto;
+    width:1000px;
+   
+    
+    
+}
+
+#logo{
+    border-bottom: 1px solid black;
+    width:1000px;
+    height: 120px;
+    p{
+        margin-left:480px;
+    }
+
+    .ul_bar2{
+        list-style-type: none;
+        display:inline-flex;
+        gap:55px;
+        margin-left:170px;
+    }
+}
+
+.block_1{
+    width:1000px;
+    display:grid;
+    grid-template-columns: 500px auto auto;
+    .art1{
+    grid-row-start: 1;
+    grid-row-end: 9;
+    }
+    gap: 20px;
+}
+
+.quotes{
+    width: 940px;
+    height: 60px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding:30px;
+    
+    p1{
+        margin-left: 400px;
+        margin-top:130px; 
+    }
+    p{
+        margin-left: 440px;
+    }
+    
+}
+
+.family{
+    width:1000px;
+    height: 250px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    
+    .art10{
+        
+        grid-column: 1 /span 3;
+        margin-left: 500px;
+           
+            }
+     .art11{
+        margin-left: 250px;
+     }       
+
+       .art12{
+        margin-left: 250px; 
+     }       
+     
+     h1{
+        margin-left:500px;
+        
+    }
+  
+}
+
+.column{
+    width:1000px;
+    height: 250px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    
+    .art13{
+        
+        grid-column: 1 /span 5;
+        margin-left: 500px;
+           
+            }
+    .art14{
+        margin-left: 20px; 
+        
+     }       
+
+    .art15{
+        margin-left: -250px; 
+     }       
+     
+     .art16{
+        margin-left: -30px; 
+     }  
+     
+     .art17{
+        margin-left: -10px; 
+     }       
+        
+    h1{
+        margin-left:500px;
+            
+        }
+         
+}
+
+
+.recommended{
+    width:1000px;
+    height: 600px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    
+    .art18{
+        
+        
+        
+           
+            }
+    .art19{
+        
+        
+     }       
+
+    .art20{
+        
+        grid-column: 2 /span 5;
+     }       
+     
+     .art21{
+       
+     }  
+     
+     .art22{
+       
+     } 
+     
+     .art23{
+        
+     }  
+
+     .art24{
+        
+     } 
+
+     .art25{
+        
+     } 
+
+     .art26{
+       
+     } 
+        
+    h1{
+        margin-left:500px;
+            
+        }
+         
+}

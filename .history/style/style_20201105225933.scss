@@ -1,0 +1,1013 @@
+body{
+    background-color: rgb(247, 247, 247);
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+    
+   
+}
+#constainer{
+    height: 130px;
+}
+
+#content{
+    margin:auto;
+    background-color: rgb(247, 247, 247);
+    width:1000px;
+   
+}
+
+
+#bar{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: "ul_bar loging";
+    border-bottom: 1px solid black;
+    background-color: rgb(221, 65, 65);
+    color:white;
+    position: sticky;
+    top:0;
+    height: 60px;
+    
+  
+    
+.menu{
+    
+    margin:20px 0 0 40px;
+    padding: 0;
+    
+    &:hover + .ul_bar{
+      margin-top:61px;
+        display:inline-block;
+        padding:0;
+       
+       
+    
+          
+      }
+      
+    
+    
+   
+    
+    &::before{
+      position:absolute;
+      content: "";
+      display:block; 
+      width: 10px;
+      height: 4px;
+      border-top: solid 1px white;
+      border-bottom: solid 1px white;
+      margin-left:-12px; 
+      margin-top:6px;
+     
+      
+     
+     
+      
+     
+     
+    
+    }
+    &::after{
+        content:"";
+        display:block;
+        position:absolute;
+        border-top: solid 1px white;
+        width: 10px;
+        height:35px;
+        margin:-6px 0 0 -12px;
+        
+       
+        
+      } 
+} 
+
+
+.ul_bar{ 
+    height: auto; 
+    grid-area: ul_bar;
+    position: absolute;
+    margin-right:-40px;
+    line-height: 25px;
+    display: none;
+   
+   
+    
+    
+li{
+    list-style-type: none;
+    background-color: rgb(247, 247, 247);
+    color:black;
+    padding: 5px;
+    font-size: 14px;
+    display: block;
+    
+    
+    a{
+        text-decoration: none;
+        color:black;
+        
+       
+    }
+    
+    
+}
+        
+    }  
+.loging{
+    height: 56px;
+    grid-area: loging;
+
+    margin: 20px 0 0 700px;
+}      
+    
+}
+
+
+
+
+#logo{
+    border-bottom: 1px solid black;
+    width:1000px;
+    height: 160px;
+    background-color: rgb(247, 247, 247);
+    p{
+        margin-left:290px;
+        font-size: 42px;
+        font-weight: 600;
+        letter-spacing: 6px;;
+    }
+
+.ul_bar2{
+    list-style-type: none;
+    display:inline-flex;
+    gap:55px;
+    margin-left:50px;
+    
+    li{
+        &:hover  {
+            cursor: pointer;
+            border-bottom: solid 0.5px black;
+           transition:  0.4s;
+            color:red;
+            transform: scaleY(1.7);
+        }
+
+    }
+   
+    }
+}
+
+
+.block_1{
+    width:1000px;
+    height: auto;
+    display:grid;
+    margin-top:15px;
+    grid-template-columns: auto auto auto auto;
+    display:grid;
+    gap:10px;
+    text-align: center;
+    grid-template-areas: "art1 art1 art2 art3"
+                         "art1 art1 art4 art5"
+                         "art1 art1 art6 art7"
+                         "art1 art1 art8 art9"   ;
+    
+}
+
+.art1{
+grid-area: art1;
+.autor_name{
+    font-style: italic;
+    color:rgb(141, 101, 78)
+}  
+.art{
+    margin:10px 0 0 0px;
+    &:hover{
+        text-decoration: underline; 
+        cursor: pointer;
+    }
+}
+.img{
+    &:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+    } 
+
+}  
+}
+
+.art2{
+grid-area: art2;
+.autor_name{
+    font-style: italic;
+    color:rgb(141, 101, 78)
+}
+.art{
+    margin:10px 0 0 0px;
+    &:hover{
+        text-decoration: underline; 
+        cursor: pointer;
+    }
+}
+.img{
+    &:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+    } 
+
+}    
+}
+
+.art3{
+    grid-area: art3;
+    text-align: center;
+    .autor_name{
+        font-style: italic;
+        color:rgb(141, 101, 78)
+    }  
+    .art{
+        margin:10px 0 0 0px;
+        &:hover{
+            text-decoration: underline; 
+            cursor: pointer;
+        }
+    }
+    .img{
+        &:hover{
+        cursor: pointer;
+        filter: brightness(70%);
+        } 
+    
+    }  
+   
+ }
+
+.art4{
+grid-area: art4;
+.autor_name{
+    font-style: italic;
+    color:rgb(141, 101, 78)
+} 
+.art{
+    margin:10px 0 0 0px;
+    &:hover{
+        text-decoration: underline; 
+        cursor: pointer;
+    }
+}
+.img{
+    &:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+    } 
+
+}   
+}
+
+
+.art5{
+grid-area: art5;
+.autor_name{
+    font-style: italic;
+    color:rgb(141, 101, 78)
+}  
+.art{
+    margin:10px 0 0 0px;
+    &:hover{
+        text-decoration: underline; 
+        cursor: pointer;
+    }
+}
+.img{
+    &:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+    } 
+
+}  
+}
+
+.art6{
+grid-area: art6;
+.autor_name{
+    font-style: italic;
+    color:rgb(141, 101, 78)
+}  
+.art{
+    margin:10px 0 0 0px;
+    &:hover{
+        text-decoration: underline; 
+        cursor: pointer;
+    }
+}
+.img{
+    &:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+    } 
+
+}  
+}
+
+.art7{
+grid-area: art7;
+.autor_name{
+    font-style: italic;
+    color:rgb(141, 101, 78)
+}  
+.art{
+    margin:10px 0 0 0px;
+    &:hover{
+        text-decoration: underline; 
+        cursor: pointer;
+    }
+}
+.img{
+    &:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+    } 
+
+}  
+}
+
+
+.art8{
+grid-area: art8;
+.autor_name{
+    font-style: italic;
+    color:rgb(141, 101, 78)
+} 
+.art{
+    margin:10px 0 0 0px;
+    &:hover{
+        text-decoration: underline; 
+        cursor: pointer;
+    }
+}
+.img{
+    &:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+    } 
+
+}   
+}
+
+
+.art9{
+grid-area: art9;
+.autor_name{
+    font-style: italic;
+    color:rgb(141, 101, 78)
+} 
+.art{
+    margin:10px 0 0 0px;
+    &:hover{
+        text-decoration: underline; 
+        cursor: pointer;
+    }
+}
+.img{
+    &:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+    } 
+
+}   
+}
+
+
+
+
+.quotes{
+    width: 940px;
+    height: 60px;
+    border-bottom: 1px solid rgb(124, 122, 122);
+    border-top: 1px solid rgb(124, 122, 122);
+    padding:30px;
+    position: relative;
+
+  &::before{
+      content: " `` ";
+      display:block;
+      position: absolute;
+      font-size: xx-large;
+      color:rgb(124, 122, 122);
+      font-weight: 700;
+      margin:-20px 0  0 320px;
+  }  
+
+  &::after{
+    content: " '' ";
+    display:block;
+    position: absolute;
+    font-size: xx-large;
+    color:rgb(124, 122, 122);
+    font-weight: 700;
+    margin: -60px 0 0  620px;
+}  
+
+
+    .autor_name{
+        font-style: italic;
+        color:rgb(141, 101, 78);
+        
+    }   
+    
+    p1{
+        margin-left: 400px;
+        margin-top:130px; 
+    }
+    p{
+        margin-left: 440px;
+    }
+    
+}
+
+.section{
+    text-align: center;
+    letter-spacing: 8px;
+    
+}
+.family{
+    width:1000px;
+    height: auto;
+    border-bottom: 1px solid black;
+    background-color: rgb(206, 202, 200);
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: "art10 art10"
+                        "art11 art12";
+                           
+    
+.art10{
+grid-area: art10; 
+.autor_name{
+    font-style: italic;
+    color:rgb(141, 101, 78)
+}   
+margin:30px 0 0 130px;   
+.art{
+    margin:10px 0 0 100px;
+    &:hover{
+        text-decoration: underline; 
+        cursor: pointer;
+    }
+}
+.img{
+    &:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+    } 
+
+}
+
+  
+       
+           
+}
+.art11{
+grid-area: art11; 
+.autor_name{
+    font-style: italic;
+    color:rgb(141, 101, 78)
+}  
+margin-left:230px;  
+.art{
+    margin:10px 0 0 10px;
+    
+    &:hover{
+        text-decoration: underline; 
+        cursor: pointer;
+    }
+}
+.img{
+    &:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+    } 
+
+}
+
+}       
+
+.art12{
+grid-area: art12; 
+.autor_name{
+    font-style: italic;
+    color:rgb(141, 101, 78)
+}   
+.art{
+    margin:10px 0 0 0px;
+    &:hover{
+        text-decoration: underline; 
+        cursor: pointer;
+    }
+}
+.img{
+    &:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+    } 
+
+}
+}       
+     
+  
+};
+
+.column{
+    width:1000px;
+    height: auto;
+    border-bottom: 1px solid black;
+    display:grid;
+    background-color: rgb(206, 202, 200);
+    grid-template-columns: auto auto auto;
+    grid-template-areas: "art13 art13 art13 art13"
+                         " art14 art15 art16 art17"   ;
+    
+    .art13{
+        
+        grid-area: art13;
+        .autor_name{
+            font-style: italic;
+            color:rgb(141, 101, 78)
+        }  
+        margin:25px 0 0 130px;
+
+        .art{
+            margin:10px 0 0 0px;
+            &:hover{
+                text-decoration: underline; 
+                cursor: pointer;
+            }
+        }
+        .img{
+            &:hover{
+            cursor: pointer;
+            filter: brightness(70%);
+            } 
+        
+        }
+        
+           
+            }
+    .art14{
+        grid-area: art14;
+        .autor_name{
+            font-style: italic;
+            color:rgb(141, 101, 78)
+        }  
+        margin:0 0 0 170px;
+        .art{
+            margin:10px 0 0 0px;
+            &:hover{
+                text-decoration: underline; 
+                cursor: pointer;
+            }
+        }
+        .img{
+            &:hover{
+            cursor: pointer;
+            filter: brightness(70%);
+            } 
+        
+        }
+
+
+
+     }       
+
+    .art15{
+        grid-area: art15;
+        .autor_name{
+            font-style: italic;
+            color:rgb(141, 101, 78)
+        }  
+        .art{
+            margin:10px 0 0 0px;
+            &:hover{
+                text-decoration: underline; 
+                cursor: pointer;
+            }
+        }
+        .img{
+            &:hover{
+            cursor: pointer;
+            filter: brightness(70%);
+            } 
+        
+        }
+     }       
+     
+     .art16{
+        grid-area: art16;
+        .autor_name{
+            font-style: italic;
+            color:rgb(141, 101, 78)
+        }  
+        .art{
+            margin:10px 0 0 0px;
+            &:hover{
+                text-decoration: underline; 
+                cursor: pointer;
+            }
+        }
+        .img{
+            &:hover{
+            cursor: pointer;
+            filter: brightness(70%);
+            } 
+        
+        }
+     }  
+     
+     .art17{
+        grid-area: art17;
+        .autor_name{
+            font-style: italic;
+            color:rgb(141, 101, 78)
+        }  
+        .art{
+            margin:10px 0 0 0px;
+            &:hover{
+                text-decoration: underline; 
+                cursor: pointer;
+            }
+        }
+        .img{
+            &:hover{
+            cursor: pointer;
+            filter: brightness(70%);
+            } 
+        
+        }
+     }       
+        
+    h1{
+        margin-left:500px;
+        
+            
+        }
+         
+}
+
+
+.recommended{
+    width:1000px;
+    height: auto;
+    border-bottom: 1px solid black;
+    display:grid;
+    gap:35px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: " art18   art19"
+                         " art20   art19"
+                         " art21  art22"
+                         " art23  art22"
+                         " art24  art25"
+                         " art26  art25"
+                         ;
+    
+                    
+                        
+                         
+.art18{
+grid-area:art18;
+.autor_name{
+    font-style: italic;
+    color:rgb(141, 101, 78)
+}  
+.art{
+    margin:10px 0 0 0px;
+    &:hover{
+        text-decoration: underline; 
+        cursor: pointer;
+    }
+}
+.img{
+    &:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+    } 
+
+}
+                         
+                               
+}
+               
+.art19{
+grid-area: art19;
+.autor_name{
+    font-style: italic;
+    color:rgb(141, 101, 78)
+}  
+.art{
+    margin:60px 0 0 0px;
+    &:hover{
+        text-decoration: underline; 
+        cursor: pointer;
+    }
+}
+.img{
+  
+    &:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+  
+
+    
+    } 
+
+}
+    
+ }       
+
+.art20{
+grid-area: art20;  
+.autor_name{
+    font-style: italic;
+    color:rgb(141, 101, 78)
+}   
+.art{
+    margin:10px 0 0 0px;
+    &:hover{
+        text-decoration: underline; 
+        cursor: pointer;
+    }
+}
+.img{
+    &:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+    } 
+
+}
+    
+    
+ }       
+ 
+.art21{
+grid-area: art21; 
+.autor_name{
+    font-style: italic;
+    color:rgb(141, 101, 78)
+}  
+.art{
+    margin:10px 0 0 0px;
+    &:hover{
+        text-decoration: underline; 
+        cursor: pointer;
+    }
+}
+.img{
+    &:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+    } 
+
+}   
+ }  
+ 
+.art22{
+grid-area: art22; 
+.autor_name{
+    font-style: italic;
+    color:rgb(141, 101, 78)
+}  
+.art{
+    margin:60px 0 0 0px;
+    &:hover{
+        text-decoration: underline; 
+        cursor: pointer;
+    }
+}
+.img{
+    &:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+    } 
+
+}   
+ } 
+ 
+.art23{
+grid-area: art23; 
+.autor_name{
+    font-style: italic;
+    color:rgb(141, 101, 78)
+}  
+.art{
+    margin:10px 0 0 0px;
+    &:hover{
+        text-decoration: underline; 
+        cursor: pointer;
+    }
+}
+.img{
+    &:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+    } 
+
+} 
+ }  
+
+.art24{
+grid-area: art24; 
+.autor_name{
+    font-style: italic;
+    color:rgb(141, 101, 78)
+}   
+.art{
+    margin:10px 0 0 0px;
+    &:hover{
+        text-decoration: underline; 
+        cursor: pointer;
+    }
+}
+.img{
+    &:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+    } 
+
+} 
+    
+ } 
+
+.art25{
+
+grid-area: art25;
+
+.autor_name{
+    font-style: italic;
+    color:rgb(141, 101, 78)
+}  
+.art{
+    margin:10px 0 0 0px;
+    &:hover{
+        text-decoration: underline; 
+        cursor: pointer;
+    }
+}
+.img{
+    &:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+    } 
+
+}  
+.autor_name{
+    font-style: italic;
+    color:rgb(141, 101, 78)
+}  
+ } 
+
+.art26{
+grid-area: art26; 
+
+.autor_name{
+    font-style: italic;
+    color:rgb(141, 101, 78)
+}  
+.art{
+    margin:10px 0 0 0px;
+    text-align: left;
+    
+    &:hover{
+        text-decoration: underline; 
+        cursor: pointer;
+    }
+}
+.img{
+    &:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+    } 
+
+}   
+ } 
+};
+
+.letters{
+    width:1000px;
+    height: auto;
+    background-color: rgb(206, 202, 200);
+    display:grid;
+    margin-top:15px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "art27 art28 art29 art30";
+
+
+.art27{
+    grid-area: art27;
+    margin:15px 0 0 50px; 
+    .autor_name{
+        font-style: italic;
+        color:rgb(141, 101, 78)
+    }    
+    .art{
+        margin:10px 0 0 0px;
+        &:hover{
+            text-decoration: underline; 
+            cursor: pointer;
+        }
+    }
+    .img{
+        &:hover{
+        cursor: pointer;
+        filter: brightness(70%);
+        } 
+    
+    }
+} 
+
+.art28{
+    grid-area: art28; 
+    margin:15px 0 0 50px;  
+    .autor_name{
+        font-style: italic;
+        color:rgb(141, 101, 78)
+    }      
+    .art{
+        margin:10px 0 0 0px;
+        &:hover{
+            text-decoration: underline; 
+            cursor: pointer;
+        }
+    }
+    .img{
+        &:hover{
+        cursor: pointer;
+        filter: brightness(70%);
+        } 
+    
+    } 
+}
+
+
+.art29{
+    grid-area: art29;
+    margin:15px 0 0 50px; 
+    .autor_name{
+        font-style: italic;
+        color:rgb(141, 101, 78)
+    }  
+    .art{
+        margin:10px 0 0 0px;
+        &:hover{
+            text-decoration: underline; 
+            cursor: pointer;
+        }
+    }
+    .img{
+        &:hover{
+        cursor: pointer;
+        filter: brightness(70%);
+        } 
+    
+    }   
+}
+
+.art30{
+    grid-area: art30; 
+    margin:15px 0 0 50px; 
+    .autor_name{
+        font-style: italic;
+        color:rgb(141, 101, 78)
+    }  
+    .art{
+        margin:10px 0 0 0px;
+        &:hover{
+            text-decoration: underline; 
+            cursor: pointer;
+        }
+    }
+    .img{
+        &:hover{
+        cursor: pointer;
+        filter: brightness(70%);
+        } 
+    
+    }  
+}
+
+}
+
+.footer{
+    margin:15px 0 0 0;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    background-color: rgb(51, 49, 49);
+    height: 30px;
+    color:rgb(179, 170, 170);
+    text-align: center;
+    padding: 20px;;
+ }  
+
+.article{
+    text-align: center;
+} 
+   
