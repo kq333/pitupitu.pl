@@ -1,3 +1,3 @@
 # pitupitu.pl
-Layout Strony głównej portalu intrnetowego.
+Layout strony głównej portalu internetowego.
 Strona projektu: https://kq333.github.io/pitupitu.pl/
